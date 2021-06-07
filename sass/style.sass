@@ -1,0 +1,205 @@
+@font-face
+  font-family: 'TT Commons'
+  src: url('../fonts/Light.woff') format('woff')
+  font-weight: 300
+  font-style: normal
+@font-face
+  font-family: 'TT Commons'
+  src: url('../fonts/Medium.woff') format('woff')
+  font-weight: 500
+  font-style: normal
+@font-face
+  font-family: 'TT Commons'
+  src: url('../fonts/Regular.woff') format('woff')
+  font-weight: 400
+  font-style: normal
+
+*, *:after, *:before
+  box-sizing: border-box
+  margin: 0
+
+body
+  font-family: TT Commons
+  font-style: normal
+  font-weight: 400
+  background: #48484A
+
+.header
+  background-color: #5E5CE6
+  max-width: 375px
+  height: 153px
+  color: #fff
+  padding-top: 35px
+  &_title
+    font-weight: 500
+    font-size: 18px
+    line-height: 21px
+  &_sub-title
+    font-weight: 400
+    font-size: 14px
+    line-height: 16px
+  &_main
+    display: flex
+    align-items: center
+    background-color: #545456
+    max-height: 64px
+
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25)
+    border-radius: 10px
+
+    margin-top: 12px
+    &_text
+      &_name
+        font-weight: 400
+        font-size: 18px
+        line-height: 21px
+        color: #fff
+      &_nick
+        font-weight: 400
+        font-size: 14px
+        line-height: 16px
+        color: #E5E5EA
+    &_ava
+      width: 52px
+      height: 52px
+      margin-left: 19px
+      margin-top: 6px
+      margin-bottom: 6px
+      margin-right: 16px
+      border-radius: 50%
+      background-image: url(../img/ava.png)
+      background-repeat: no-repeat
+      background-size: contain
+
+.main
+  max-width: 375px
+  margin-top: 14px
+  &_total
+    justify-content: start
+    flex-direction: column
+    min-height: 128px
+  &_title
+    font-weight: 500
+    font-size: 14px
+    line-height: 16px
+    color: #fff
+    padding-top: 8px
+  &_slider
+    display: flex
+
+  &_slide
+    padding-top: 4px
+    padding-bottom: 20px
+    display: flex
+    justify-content: center\
+    &_texts
+      margin-left: 9px
+      justify-content: space-between
+      display: flex
+      flex-direction: column
+    &_name
+      font-size: 14px
+      line-height: 16px
+      color: #FFFFFF
+    &_text
+      font-weight: 300
+      font-size: 14px
+      line-height: 16px
+      color: #FFFFFF
+    &_foto
+      width: 110px
+      height: 53px
+      background: #C4C4C4
+      border-radius: 3px
+    &_link
+      margin-top: 4px
+      display: flex
+      justify-content: center
+      padding-bottom: 4px
+      padding-top: 3px
+      width: 110px
+      height: 23px
+      background: #5E5CE6
+      border-radius: 3px
+      //padding: 4px 20px
+      color: #fff
+      text-decoration: none
+
+.connection
+  max-width: 375px
+  margin-top: 14px
+  &_second
+    &_button
+      border-radius: 3px
+      margin: 4px
+      width: 150px
+      height: 40px
+      display: flex
+      align-items: center
+      text-decoration: none
+      color: #fff
+      position: relative
+      &::after
+        content: url('../img/icons/arrow.svg')
+        position: absolute
+        right: 10px
+        top: 12px
+      &_text
+        margin: 9px 0 5px 0
+        font-size: 18px
+        line-height: 21px
+      &_img
+        margin-left: 10px
+
+  &_main
+    display: flex
+    align-items: center
+    background-color: #545456
+
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25)
+    border-radius: 10px
+    margin-top: 12px
+    justify-content: start
+    flex-direction: column
+    min-height: 128px
+    &_title
+      font-weight: 500
+      font-size: 14px
+      line-height: 16px
+      color: #fff
+      padding-top: 8px
+    &_buttons
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+    &_button
+      border-radius: 3px
+      margin: 4px
+      width: 150px
+      height: 40px
+      display: flex
+      justify-content: center
+      align-items: center
+    &_hr
+      width: 64px
+      border: none
+      margin-top: 9px
+      margin-bottom: 9px
+      border-top: 1px solid #C4C4C4
+
+.whatsup
+  background-color: #26D266
+.telegram
+  background-color: #3EB8E7
+.viber
+  background-color: #7C529E
+.vk
+  background-color: #2787F5
+.instagram
+  background-color: #E2306C
+  width: 308px
+.active
+  padding-left: 10px
+  background-color: #BF5AF2
+  width: 308px
+  margin-bottom: 44px
