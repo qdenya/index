@@ -34,7 +34,6 @@ body {
 
 .header {
   background-color: #5E5CE6;
-  max-width: 375px;
   height: 153px;
   color: #fff;
   padding-top: 35px;
@@ -95,7 +94,6 @@ body {
 }
 
 .main {
-  max-width: 375px;
   margin-top: 14px;
 }
 
@@ -187,7 +185,6 @@ body {
 }
 
 .connection {
-  max-width: 375px;
   margin-top: 14px;
 }
 
