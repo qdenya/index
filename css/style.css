@@ -48,7 +48,7 @@ body {
 
 .header_sub-title {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 16px;
 }
 
@@ -112,7 +112,7 @@ body {
 
 .main_title {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 16px;
   color: #fff;
   padding-top: 8px;
@@ -181,7 +181,6 @@ body {
   padding-top: 3px;
   width: 110px;
   height: 23px;
-  background: #5E5CE6;
   border-radius: 3px;
   color: #fff;
   text-decoration: none;
@@ -249,7 +248,7 @@ body {
 
 .connection_main_title {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 16px;
   color: #fff;
   padding-top: 8px;
@@ -316,4 +315,12 @@ body {
   background-color: #BF5AF2;
   width: 308px;
   margin-bottom: 44px;
+}
+
+.seen {
+  background: #5E5CE6;
+}
+
+.demo {
+  background: #FF6482;
 }
