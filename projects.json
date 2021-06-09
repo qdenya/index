@@ -1,8 +1,8 @@
 [
   {
     "name": "Viva Braslav BOT",
-    "text": "Чат-бот для гостей фестиваля.",
-    "count_time": "7 рабочих дней",
+    "text": "Телеграм-бот с навигацией и помощью для гостей фестиваля.",
+    "count_time": "5 рабочих дней",
     "type_project": "seen",
     "link_photo": "img/vivabraslav.jpg",
     "links": "https://t.me/vivabraslavbot"
@@ -18,7 +18,7 @@
   {
     "name": "Delivery food",
     "text": "Промо frontend сайта доставки.",
-    "count_time": "7 рабочих дней",
+    "count_time": "3 рабочих дней",
     "type_project": "demo",
     "link_photo": "img/delivery.jpg",
     "links": "https://qdenya.github.io/delivery-js/"
@@ -34,7 +34,7 @@
   {
     "name": "Flowers",
     "text": "Промо-страница сайта заказа цветов.",
-    "count_time": "1 рабочих дней",
+    "count_time": "2 рабочих дней",
     "type_project": "demo",
     "link_photo": "img/flowers.jpg",
     "links": "https://qdenya.github.io/flowers/"
@@ -42,7 +42,7 @@
   {
     "name": "Willbieries",
     "text": "Учебная работа вёрстки сайта.",
-    "count_time": "0 рабочих дней",
+    "count_time": "2 рабочих дней",
     "type_project": "demo",
     "link_photo": "img/wild.jpg",
     "links": "https://qdenya.github.io/wildbieris/"

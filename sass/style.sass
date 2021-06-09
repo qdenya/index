@@ -25,8 +25,8 @@ body
   background: #48484A
 
 .header
-  background-color: #5E5CE6
-
+  background-color: #7F7DFF
+  max-width: 375px
   height: 153px
   color: #fff
   padding-top: 35px
@@ -34,6 +34,10 @@ body
     font-weight: 500
     font-size: 18px
     line-height: 21px
+    &::after
+      content: url('../img/smile.svg')
+      position: relative
+      top: 2px
   &_sub-title
     font-weight: 400
     font-size: 15px
@@ -73,6 +77,7 @@ body
 
 .main
   margin-top: 14px
+  max-width: 375px
   &_total
     justify-content: start
     flex-direction: column
@@ -87,6 +92,7 @@ body
     display: flex
 
   &_slide
+
     padding-top: 4px
     padding-bottom: 20px
     display: flex
@@ -101,6 +107,7 @@ body
       line-height: 16px
       color: #FFFFFF
     &_text
+      width: 190px
       font-weight: 300
       font-size: 14px
       line-height: 16px
@@ -126,6 +133,7 @@ body
 
 .connection
   margin-top: 14px
+  max-width: 375px
   &_second
     &_button
       border-radius: 3px
@@ -169,11 +177,12 @@ body
     &_buttons
       display: flex
       flex-wrap: wrap
-      justify-content: center
+      justify-content: space-between
+      width: 308px
+      margin-top: 4px
     &_button
       border-radius: 3px
-      margin: 4px
-      width: 150px
+      width: 40px
       height: 40px
       display: flex
       justify-content: center
@@ -187,15 +196,24 @@ body
 
 .whatsup
   background-color: #26D266
+  &:hover
+    background-color: #21ac54
 .telegram
   background-color: #3EB8E7
+  &:hover
+    background-color: #1d5970
 .viber
   background-color: #7C529E
+  &:hover
+    background-color: #48305c
 .vk
   background-color: #2787F5
+  &:hover
+    background-color: #1a5ca8
 .instagram
   background-color: #E2306C
-  width: 308px
+  &:hover
+    background-color: #942047
 .active
   padding-left: 10px
   background-color: #BF5AF2

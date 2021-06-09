@@ -37,7 +37,7 @@ function createCardRestaurant(projects) {
   <div class="swiper-slide main_slide">
     <div class="main_slide_info">
       <img src="${link_photo}" alt="${name}" class="main_slide_foto">
-      <a href="${links}"  class="main_slide_link ${type_project}">${title_btn}</a>
+      <a href="${links}" target="_blank" class="main_slide_link ${type_project}">${title_btn}</a>
     </div>
     <div class="main_slide_texts">
       <div class="main_slide_texts_gen">
